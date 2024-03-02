@@ -1,0 +1,13 @@
+name: my_environment
+channels:
+  - defaults
+dependencies:
+  - geoviews
+  - numpy
+  - pandas
+  - xarray
+  - cartopy
+  - geopandas
+  - matplotlib
+  - pip:
+    - ramp-workflow
