@@ -5,4 +5,6 @@ xarray
 cartopy
 geopandas
 matplotlib
+xgboost
+scikit-learn
 ramp-workflow
