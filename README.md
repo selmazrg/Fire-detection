@@ -1,11 +1,9 @@
-# RAMP-Challenge Data Camp 2023
-
-## Fire prediction
+#  Fire prediction -  Data Camp 2023
 
 Authors: Matthis Guerin, Valentina HU, Adrien Oleksiak, Manuel Nkegoum, Nicolas Saint, Selma Zarga
 
 
-## Source 
+## Dataset 
 
 Our dataset includes various features, and we are excluding non-essential data. Below are the sources for the datasets used:
 
