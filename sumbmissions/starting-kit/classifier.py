@@ -2,7 +2,7 @@ from sklearn.base import BaseEstimator
 from sklearn.pipeline import make_pipeline, Pipeline
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler
-from xgboost import XGBClassifier
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 class Classifier(BaseEstimator):
@@ -13,7 +13,7 @@ class Classifier(BaseEstimator):
                 ("scaler", StandardScaler()),
             ]
         )
-        self.model = XGBClassifier()
+        self.model = RandomForestClassifier()
         self.pipe = make_pipeline(self.transformer, self.model)
 
     def fit(self, X, y):
@@ -24,4 +24,3 @@ class Classifier(BaseEstimator):
 
     def predict_proba(self, X):
         return self.pipe.predict_proba(X)
-
