@@ -35,7 +35,7 @@ To run a specific submission, you can use the
 ``ramp-test`` command line:
 
 ```bash 
-ramp-test --submission starting-kit
+ramp-test --submission starting-kit 
 ```
 
 You can get more information regarding this command line:
