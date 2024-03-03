@@ -11,4 +11,4 @@ dependencies:
   - matplotlib
   - pip:
     - ramp-workflow
-    - xgboost
+    - RandomForestClassifier
