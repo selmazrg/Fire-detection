@@ -29,13 +29,13 @@ If you are using conda, we provide an ``environment.yml`` file for similar usage
 Get started on this RAMP with the dedicated notebook.
 
 ### Test a submission
-The submissions need to be located in the submissions folder. For instance for my_submission, it should be located in ``submissions/my_submission``.
+The submissions need to be located in the submissions folder. For instance for my_submission, it should be located in ``submissions/starting-kit``.
 
 To run a specific submission, you can use the 
 ``ramp-test`` command line:
 
 ```bash 
-ramp-test --submission my_submission
+ramp-test --submission starting-kit 
 ```
 
 You can get more information regarding this command line:

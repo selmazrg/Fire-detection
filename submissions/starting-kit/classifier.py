@@ -13,7 +13,7 @@ class Classifier(BaseEstimator):
                 ("scaler", StandardScaler()),
             ]
         )
-        self.model = RandomForestClassifier()
+        self.model = RandomForestClassifier(n_estimators=30,max_depth=5)
         self.pipe = make_pipeline(self.transformer, self.model)
 
     def fit(self, X, y):
